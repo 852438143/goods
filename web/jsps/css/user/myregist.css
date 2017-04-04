@@ -1,0 +1,13 @@
+/*注意文件路径,这个和项目路径有关系的,资源文件都是在goods下面的; 还有分析下这个bg_btns.png图片,返现我们只是截取其中一段,其中的0 132坐标的一段,因为css自动填充的*/
+#divTitle{width:880px;height:30px;border: solid 1px #d0d0d0;background-image:url("/goods/images/bg_btns.png");background-position: 0px -132px;}
+#spanTitle{font-size: 20px;font-weight: 900;}
+/*因为divTitle中的border下边框和divBody中的border上边框重合 所以要分开写,不要上边框*/
+#divBody{width:880px;height:400px;border-left: solid 1px #d0d0d0;border-right: solid 1px #d0d0d0;border-bottom: solid 1px #d0d0d0;}
+#divMain{margin-left: 240px;}
+table{line-height: 50px;}
+.tdText{text-align:right;width:300px;height:50px;}
+.tdInput{width:250px;}
+.tdError{width:300px;}
+.input{width: 240px; height: 32px; border: 1px #7f9db9 solid; padding-left: 10px; line-height: 32px;}
+.labelError{line-height:32px;font-size:10pt;color:#f40000;background-color: #fef2f2;border: solid 1px;padding:8px 8px 8px 35px; background-image: url(/goods/images/error.png);background-repeat: no-repeat;}
+#imgVcode{width: 180px; height: 50px; border: 1px #e2e2e2 solid; display: inline-block; line-height: 50px; text-align: center;}
